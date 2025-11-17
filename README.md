@@ -22,6 +22,21 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the login page
 
+## To manually test
+1. Test valid credentials
+* type in the email input: "test@email.com"
+* type in the password input: "password123"
+* click the "Log In" button
+
+A status message reading "Logged in!" should appear below the button.
+
+2. Test invalid credentials
+* type in the email input: "testing@email.com" or any other string following the foo@bar.com email pattern
+* type in the password input: "password" or anything besides "password123"
+* click the "Log In" button
+
+A status message reading "Invalid credentials. Try again!"
+
 ## Running Cypress Tests
 1. Start the development server
 
