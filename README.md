@@ -3,7 +3,7 @@
 
 This app contains a simple login form that validates a hardcoded email and password. Cypress E2E tests are utilized to verify correct and incorrect login behavior.
 
-First, open a terminal window (I use VS Code and use `[control+`]`), and then you are ready to run the app!
+First, open a terminal window (I use VS Code and use ``control + ` ``), and then you are ready to run the app!
 
 ## How to run the app
 1. Install the dependencies
